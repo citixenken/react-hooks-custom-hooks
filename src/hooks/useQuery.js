@@ -5,6 +5,7 @@ function useQuery(url) {
   const [isLoaded, setIsLoaded] = useState(false);
   // rename `posts` to a more generic `data`
   const [data, setData] = useState(null);
+  // const [posts, setData] = useState(null);
 
   useEffect(() => {
     setIsLoaded(false);
